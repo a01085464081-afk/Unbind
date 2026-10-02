@@ -27,8 +27,8 @@
 ## 安装（Homebrew）
 
 ```sh
-brew tap a01085464081-afk/unbind https://github.com/a01085464081-afk/Unbind
-brew install --cask a01085464081-afk/unbind/unbind
+brew tap syc-labs/unbind https://github.com/syc-labs/Unbind
+brew install --cask syc-labs/unbind/unbind
 ```
 
 Unbind 未经 Apple 公证，首次启动时 macOS 可能会阻止运行。请运行一次以下命令，或在 系统设置 → 隐私与安全性 中点击 **仍要打开**。
@@ -40,7 +40,7 @@ xattr -dr com.apple.quarantine /Applications/Unbind.app
 更新：
 
 ```sh
-brew upgrade --cask a01085464081-afk/unbind/unbind
+brew upgrade --cask syc-labs/unbind/unbind
 ```
 
 ## 卸载
@@ -48,14 +48,14 @@ brew upgrade --cask a01085464081-afk/unbind/unbind
 先在菜单栏中点击 **退出**，然后：
 
 ```sh
-brew uninstall --cask a01085464081-afk/unbind/unbind
+brew uninstall --cask syc-labs/unbind/unbind
 ```
 
 如需同时删除设置和 tap：
 
 ```sh
-brew uninstall --zap --cask a01085464081-afk/unbind/unbind
-brew untap a01085464081-afk/unbind
+brew uninstall --zap --cask syc-labs/unbind/unbind
+brew untap syc-labs/unbind
 ```
 
 如果是从源码构建安装的：
@@ -68,7 +68,7 @@ defaults delete local.unbind
 ## 从源码构建
 
 ```sh
-git clone https://github.com/a01085464081-afk/Unbind.git
+git clone https://github.com/syc-labs/Unbind.git
 cd Unbind
 ./build.sh
 cp -R Unbind.app /Applications/
