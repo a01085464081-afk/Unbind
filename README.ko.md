@@ -35,6 +35,34 @@ Unbind는 Apple 공증을 받지 않아서 처음 실행할 때 macOS가 막을 
 xattr -dr com.apple.quarantine /Applications/Unbind.app
 ```
 
+업데이트:
+
+```sh
+brew upgrade --cask unbind
+```
+
+## 삭제
+
+메뉴바에서 **앱 종료**를 누른 뒤:
+
+```sh
+brew uninstall --cask unbind
+```
+
+설정과 tap까지 지우려면:
+
+```sh
+brew uninstall --zap --cask unbind
+brew untap a01085464081-afk/tap
+```
+
+소스에서 빌드해 설치했다면:
+
+```sh
+rm -rf /Applications/Unbind.app
+defaults delete local.unbind
+```
+
 ## 소스에서 빌드
 
 ```sh

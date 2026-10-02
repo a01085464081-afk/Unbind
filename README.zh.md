@@ -37,6 +37,34 @@ Unbind 未经 Apple 公证，首次启动时 macOS 可能会阻止运行。请�
 xattr -dr com.apple.quarantine /Applications/Unbind.app
 ```
 
+更新：
+
+```sh
+brew upgrade --cask unbind
+```
+
+## 卸载
+
+先在菜单栏中点击 **앱 종료**（退出应用），然后：
+
+```sh
+brew uninstall --cask unbind
+```
+
+如需同时删除设置和 tap：
+
+```sh
+brew uninstall --zap --cask unbind
+brew untap a01085464081-afk/tap
+```
+
+如果是从源码构建安装的：
+
+```sh
+rm -rf /Applications/Unbind.app
+defaults delete local.unbind
+```
+
 ## 从源码构建
 
 ```sh

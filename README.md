@@ -37,6 +37,34 @@ Unbind is not notarized, so macOS may block the first launch. Run this once, or 
 xattr -dr com.apple.quarantine /Applications/Unbind.app
 ```
 
+To update:
+
+```sh
+brew upgrade --cask unbind
+```
+
+## Uninstall
+
+Quit Unbind from the menu bar (**앱 종료**), then:
+
+```sh
+brew uninstall --cask unbind
+```
+
+To also remove settings and the tap:
+
+```sh
+brew uninstall --zap --cask unbind
+brew untap a01085464081-afk/tap
+```
+
+If you built from source:
+
+```sh
+rm -rf /Applications/Unbind.app
+defaults delete local.unbind
+```
+
 ## Build from source
 
 ```sh
