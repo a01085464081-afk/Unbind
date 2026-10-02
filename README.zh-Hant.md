@@ -33,7 +33,7 @@ brew tap syc-labs/unbind https://github.com/syc-labs/Unbind
 brew install --cask syc-labs/unbind/unbind
 ```
 
-Unbind 未經 Apple 公證，首次開啟時 macOS 可能會阻擋。請執行一次以下指令，或在 系統設定 → 隱私權與安全性 中點按 **強制打開**。
+如果首次開啟時被 macOS 阻擋，請執行一次以下指令，或在 系統設定 → 隱私權與安全性 中點按 **強制打開**。
 
 ```sh
 xattr -dr com.apple.quarantine /Applications/Unbind.app

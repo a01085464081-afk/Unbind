@@ -33,7 +33,7 @@ brew tap syc-labs/unbind https://github.com/syc-labs/Unbind
 brew install --cask syc-labs/unbind/unbind
 ```
 
-Unbind is not notarized, so macOS may block the first launch. Run this once, or allow it in System Settings → Privacy & Security → **Open Anyway**.
+If macOS blocks the first launch, run this once, or allow it in System Settings → Privacy & Security → **Open Anyway**.
 
 ```sh
 xattr -dr com.apple.quarantine /Applications/Unbind.app

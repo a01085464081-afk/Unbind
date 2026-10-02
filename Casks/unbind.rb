@@ -14,7 +14,7 @@ cask "unbind" do
   zap trash: "~/Library/Preferences/local.unbind.plist"
 
   caveats <<~EOS
-    Unbind is not notarized. If macOS blocks it on first launch, run:
+    If macOS blocks Unbind on first launch, run:
       xattr -dr com.apple.quarantine /Applications/Unbind.app
   EOS
 end
