@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/icon.png" width="128" alt="Unbind アイコン"></p>
 <h1 align="center">Unbind</h1>
 <p align="center">ポートを監視し、ワンクリックで解放する macOS メニューバーアプリ</p>
-<p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">中文</a> · <b>日本語</b></p>
+<p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <b>日本語</b></p>
 
 ---
 
@@ -17,7 +17,7 @@
 - **通知**：監視ポートが使用開始・解放されたときに通知
 - **その他の開いているポート**：監視していない TCP ポートを一覧表示、ワンクリックで監視に追加
 - 設定：更新間隔（1/2/5/10 秒）、通知、ログイン時に起動、言語
-- **言語**：English、한국어、日本語、简体中文。初期設定では macOS の言語に合わせて自動で切り替わり（その他の言語は英語）、設定から選ぶこともできます
+- **言語**：English、한국어、日本語、简体中文、繁體中文。初期設定では macOS の言語に合わせて自動で切り替わり（その他の言語は英語）、設定から選ぶこともできます
 
 ## 動作環境
 

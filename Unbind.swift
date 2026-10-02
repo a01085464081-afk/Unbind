@@ -437,7 +437,7 @@ let appVersion: String = {
 }()
 
 // 앱 전용 AppleLanguages ("" = 시스템 언어). 다시 시작해야 적용
-let languages = [("", ""), ("en", "English"), ("ko", "한국어"), ("ja", "日本語"), ("zh-Hans", "简体中文")]
+let languages = [("", ""), ("en", "English"), ("ko", "한국어"), ("ja", "日本語"), ("zh-Hans", "简体中文"), ("zh-Hant", "繁體中文")]
 // 시스템 설정에서 앱별로 고른 "en-US" 같은 값도 목록 항목으로 맞춤
 let savedLanguage: String = {
     let l = (UserDefaults.standard.persistentDomain(forName: Bundle.main.bundleIdentifier ?? "")?["AppleLanguages"] as? [String])?.first ?? ""

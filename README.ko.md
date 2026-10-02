@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/icon.png" width="128" alt="Unbind 아이콘"></p>
 <h1 align="center">Unbind</h1>
 <p align="center">포트를 감시하고 클릭 한 번으로 비워 주는 macOS 메뉴바 앱</p>
-<p align="center"><a href="README.md">English</a> · <b>한국어</b> · <a href="README.zh.md">中文</a> · <a href="README.ja.md">日本語</a></p>
+<p align="center"><a href="README.md">English</a> · <b>한국어</b> · <a href="README.zh.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.ja.md">日本語</a></p>
 
 ---
 
@@ -17,7 +17,7 @@
 - **알림**: 감시 포트가 사용 시작되거나 비면 알림
 - **다른 열린 포트**: 감시하지 않는 TCP 포트 목록, 클릭 한 번으로 감시 추가
 - 설정: 조회 주기(1/2/5/10초), 알림, 로그인 시 실행, 언어
-- **언어**: English, 한국어, 日本語, 简体中文. 기본은 macOS 언어 설정을 따르고(그 외 언어는 영어), 설정에서 직접 고를 수도 있어요
+- **언어**: English, 한국어, 日本語, 简体中文, 繁體中文. 기본은 macOS 언어 설정을 따르고(그 외 언어는 영어), 설정에서 직접 고를 수도 있어요
 
 ## 요구 사항
 

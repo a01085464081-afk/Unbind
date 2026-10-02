@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/icon.png" width="128" alt="Unbind 图标"></p>
 <h1 align="center">Unbind</h1>
 <p align="center">监视端口并一键释放的 macOS 菜单栏应用</p>
-<p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <b>中文</b> · <a href="README.ja.md">日本語</a></p>
+<p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <b>简体中文</b> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.ja.md">日本語</a></p>
 
 ---
 
@@ -17,7 +17,7 @@
 - **通知**：监视端口被占用或释放时通知
 - **其他开放端口**：列出未监视的 TCP 端口，一键加入监视
 - 设置：刷新间隔（1/2/5/10 秒）、通知、登录时启动、语言
-- **语言**：English、한국어、日本語、简体中文。默认跟随 macOS 系统语言（其他语言显示英语），也可在设置中手动选择
+- **语言**：English、한국어、日本語、简体中文、繁體中文。默认跟随 macOS 系统语言（其他语言显示英语），也可在设置中手动选择
 
 ## 系统要求
 

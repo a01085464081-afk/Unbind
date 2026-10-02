@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/icon.png" width="128" alt="Unbind icon"></p>
 <h1 align="center">Unbind</h1>
 <p align="center">A macOS menu bar app that watches your ports and frees them in one click.</p>
-<p align="center"><b>English</b> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">中文</a> · <a href="README.ja.md">日本語</a></p>
+<p align="center"><b>English</b> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.ja.md">日本語</a></p>
 
 ---
 
@@ -17,7 +17,7 @@
 - **Notifications**: when a watched port becomes busy or free
 - **Other open ports**: lists unwatched TCP ports, add any with one click
 - Settings: refresh interval (1/2/5/10s), notifications, launch at login, language
-- **Languages**: English, 한국어, 日本語, 简体中文 — follows your macOS language by default (others fall back to English), or pick one in Settings
+- **Languages**: English, 한국어, 日本語, 简体中文, 繁體中文 — follows your macOS language by default (others fall back to English), or pick one in Settings
 
 ## Requirements
 

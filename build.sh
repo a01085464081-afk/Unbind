@@ -9,7 +9,7 @@ mkdir -p Unbind.app/Contents/MacOS Unbind.app/Contents/Resources
 cp logo/final/menubar-*.png Unbind.app/Contents/Resources/
 # 번역: 문법 검사, 언어별 키가 영어와 같은지 확인 후 복사
 plutil -lint -s l10n/*.lproj/*.strings
-for l in ja zh-Hans; do diff <(cut -d'"' -f2 l10n/en.lproj/Localizable.strings) <(cut -d'"' -f2 l10n/$l.lproj/Localizable.strings) || { echo "$l 번역 키 불일치"; exit 1; }; done
+for l in ja zh-Hans zh-Hant; do diff <(cut -d'"' -f2 l10n/en.lproj/Localizable.strings) <(cut -d'"' -f2 l10n/$l.lproj/Localizable.strings) || { echo "$l 번역 키 불일치"; exit 1; }; done
 cp -R l10n/*.lproj Unbind.app/Contents/Resources/
 # 앱 아이콘(.icon, 유리 효과 끔) → Assets.car + Unbind.icns
 xcrun actool "$PWD/logo/final/Unbind.icon" --compile "$PWD/Unbind.app/Contents/Resources" --output-format human-readable-text \
@@ -24,7 +24,7 @@ cat > Unbind.app/Contents/Info.plist <<P
 <key>CFBundleExecutable</key><string>Unbind</string>
 <key>CFBundleIdentifier</key><string>local.unbind</string>
 <key>CFBundleDevelopmentRegion</key><string>en</string>
-<key>CFBundleLocalizations</key><array><string>en</string><string>ko</string><string>ja</string><string>zh-Hans</string></array>
+<key>CFBundleLocalizations</key><array><string>en</string><string>ko</string><string>ja</string><string>zh-Hans</string><string>zh-Hant</string></array>
 <key>CFBundleName</key><string>Unbind</string>
 <key>CFBundleIconFile</key><string>Unbind</string>
 <key>CFBundleIconName</key><string>Unbind</string>
