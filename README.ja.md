@@ -3,6 +3,8 @@
 <p align="center">ポートを監視し、ワンクリックで解放する macOS メニューバーアプリ</p>
 <p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <b>日本語</b></p>
 
+<p align="center"><img src="docs/screenshot.png" width="406" alt="Unbind スクリーンショット"></p>
+
 ---
 
 「ポート 3000 は既に使用中です」——Unbind は誰がポートを掴んでいるかを表示し、メニューバーからすぐに終了できます。

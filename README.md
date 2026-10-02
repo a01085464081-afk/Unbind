@@ -3,6 +3,8 @@
 <p align="center">A macOS menu bar app that watches your ports and frees them in one click.</p>
 <p align="center"><b>English</b> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.ja.md">日本語</a></p>
 
+<p align="center"><img src="docs/screenshot.png" width="406" alt="Unbind screenshot"></p>
+
 ---
 
 "Port 3000 is already in use" — Unbind shows who is holding it and lets you kill it right from the menu bar.

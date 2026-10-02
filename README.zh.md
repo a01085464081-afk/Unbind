@@ -3,6 +3,8 @@
 <p align="center">监视端口并一键释放的 macOS 菜单栏应用</p>
 <p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <b>简体中文</b> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.ja.md">日本語</a></p>
 
+<p align="center"><img src="docs/screenshot.png" width="406" alt="Unbind 截图"></p>
+
 ---
 
 "端口 3000 已被占用"——Unbind 会显示是谁占用了端口，并让你直接在菜单栏中结束它。

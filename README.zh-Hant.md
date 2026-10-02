@@ -3,6 +3,8 @@
 <p align="center">監看連接埠並一鍵釋放的 macOS 選單列 App</p>
 <p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <a href="README.zh.md">简体中文</a> · <b>繁體中文</b> · <a href="README.ja.md">日本語</a></p>
 
+<p align="center"><img src="docs/screenshot.png" width="406" alt="Unbind 截圖"></p>
+
 ---
 
 「連接埠 3000 已被佔用」——Unbind 會顯示是誰佔用了連接埠，並讓你直接在選單列中結束它。

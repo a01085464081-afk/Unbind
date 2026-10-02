@@ -3,6 +3,8 @@
 <p align="center">포트를 감시하고 클릭 한 번으로 비워 주는 macOS 메뉴바 앱</p>
 <p align="center"><a href="README.md">English</a> · <b>한국어</b> · <a href="README.zh.md">简体中文</a> · <a href="README.zh-Hant.md">繁體中文</a> · <a href="README.ja.md">日本語</a></p>
 
+<p align="center"><img src="docs/screenshot.png" width="406" alt="Unbind 스크린샷"></p>
+
 ---
 
 "3000번 포트가 이미 사용 중" — Unbind는 누가 포트를 잡고 있는지 보여 주고 메뉴바에서 바로 종료해요.
