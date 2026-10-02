@@ -33,11 +33,13 @@ brew tap syc-labs/unbind https://github.com/syc-labs/Unbind
 brew install --cask syc-labs/unbind/unbind
 ```
 
-If macOS blocks the first launch, run this once, or allow it in System Settings → Privacy & Security → **Open Anyway**.
+If macOS blocks the first launch:
 
-```sh
-xattr -dr com.apple.quarantine /Applications/Unbind.app
-```
+1. Click **Done** on the warning
+2. Open **System Settings → Privacy & Security** and scroll down
+3. Click **Open Anyway** next to the Unbind message, then confirm with your password
+
+You only need to do this once after each install or update.
 
 To update:
 

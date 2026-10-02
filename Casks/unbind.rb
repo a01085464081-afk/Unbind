@@ -14,7 +14,7 @@ cask "unbind" do
   zap trash: "~/Library/Preferences/local.unbind.plist"
 
   caveats <<~EOS
-    If macOS blocks Unbind on first launch, run:
-      xattr -dr com.apple.quarantine /Applications/Unbind.app
+    If macOS blocks Unbind on first launch, open
+    System Settings > Privacy & Security and click "Open Anyway".
   EOS
 end

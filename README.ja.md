@@ -33,11 +33,13 @@ brew tap syc-labs/unbind https://github.com/syc-labs/Unbind
 brew install --cask syc-labs/unbind/unbind
 ```
 
-初回起動時に macOS にブロックされた場合は、以下のコマンドを一度実行するか、システム設定 → プライバシーとセキュリティ で **このまま開く** をクリックしてください。
+初回起動時に macOS にブロックされた場合：
 
-```sh
-xattr -dr com.apple.quarantine /Applications/Unbind.app
-```
+1. 警告ウインドウで **完了** をクリック
+2. **システム設定 → プライバシーとセキュリティ** を開き、下にスクロール
+3. Unbind のメッセージの横にある **このまま開く** をクリックし、パスワードを入力
+
+インストールまたはアップデートのたびに一度だけ行えば大丈夫です。
 
 アップデート：
 

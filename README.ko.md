@@ -33,11 +33,13 @@ brew tap syc-labs/unbind https://github.com/syc-labs/Unbind
 brew install --cask syc-labs/unbind/unbind
 ```
 
-처음 실행할 때 macOS가 막으면 아래 명령을 한 번 실행하거나, 시스템 설정 → 개인정보 보호 및 보안에서 **그래도 열기**를 누르세요.
+처음 실행할 때 macOS가 막으면:
 
-```sh
-xattr -dr com.apple.quarantine /Applications/Unbind.app
-```
+1. 경고 창에서 **완료**를 눌러요
+2. **시스템 설정 → 개인정보 보호 및 보안**을 열고 아래로 내려요
+3. Unbind 안내 옆의 **그래도 열기**를 누르고 암호를 입력해요
+
+설치하거나 업데이트한 뒤 한 번만 하면 돼요.
 
 업데이트:
 
