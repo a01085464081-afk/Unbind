@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect width="1280" height="640" fill="#F5F5F7"/>
+<g transform="translate(70 150) scale(0.33)">
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)" fill="#FFFFFF"><path d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12"/></g>
+</g>
+<g font-family="Helvetica Neue, Helvetica, Arial, sans-serif" fill="#0A0A0B">
+<text x="450" y="270" font-size="110" font-weight="700" letter-spacing="-3">Unbind</text>
+<text x="456" y="335" font-size="34" fill="#3A3A3C">Free your ports from the macOS menu bar.</text>
+<text x="456" y="381" font-size="34" fill="#3A3A3C">One click kills whatever holds :3000.</text>
+</g>
+<rect x="452" y="425" width="455" height="60" rx="14" fill="#0A0A0B"/>
+<text x="476" y="464" font-family="Menlo, monospace" font-size="26" fill="#FFFFFF">github.com/syc-labs/Unbind</text>
+</svg>
