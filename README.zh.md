@@ -52,3 +52,7 @@ open /Applications/Unbind.app
 | 应用图标 | 菜单栏（空闲） | 菜单栏（占用） |
 |:-:|:-:|:-:|
 | <img src="docs/icon.png" width="64"> | <img src="logo/final/menubar-free@2x.png"> | <img src="logo/final/menubar-busy@2x.png"> |
+
+## 许可证
+
+[MIT](LICENSE)

@@ -50,3 +50,7 @@ open /Applications/Unbind.app
 | 앱 아이콘 | 메뉴바 (비어 있음) | 메뉴바 (사용 중) |
 |:-:|:-:|:-:|
 | <img src="docs/icon.png" width="64"> | <img src="logo/final/menubar-free@2x.png"> | <img src="logo/final/menubar-busy@2x.png"> |
+
+## 라이선스
+
+[MIT](LICENSE)

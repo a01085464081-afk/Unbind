@@ -52,3 +52,7 @@ An unplugged plug above a terminal cursor (`_`) — "the port is empty". See [lo
 | App icon | Menu bar (free) | Menu bar (busy) |
 |:-:|:-:|:-:|
 | <img src="docs/icon.png" width="64"> | <img src="logo/final/menubar-free@2x.png"> | <img src="logo/final/menubar-busy@2x.png"> |
+
+## License
+
+[MIT](LICENSE)

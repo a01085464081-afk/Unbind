@@ -52,3 +52,7 @@ open /Applications/Unbind.app
 | アプリアイコン | メニューバー（空き） | メニューバー（使用中） |
 |:-:|:-:|:-:|
 | <img src="docs/icon.png" width="64"> | <img src="logo/final/menubar-free@2x.png"> | <img src="logo/final/menubar-busy@2x.png"> |
+
+## ライセンス
+
+[MIT](LICENSE)
