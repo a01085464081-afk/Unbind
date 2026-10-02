@@ -16,8 +16,8 @@
 - **Labels, groups, auto-kill**: name ports, group them, "kill all" per group, auto-kill whatever grabs a port
 - **Notifications**: when a watched port becomes busy or free
 - **Other open ports**: lists unwatched TCP ports, add any with one click
-- Settings: refresh interval (1/2/5/10s), notifications, launch at login
-- **Languages**: English, 한국어, 日本語, 简体中文 — follows your macOS language (others fall back to English)
+- Settings: refresh interval (1/2/5/10s), notifications, launch at login, language
+- **Languages**: English, 한국어, 日本語, 简体中文 — follows your macOS language by default (others fall back to English), or pick one in Settings
 
 ## Requirements
 
@@ -82,7 +82,7 @@ open /Applications/Unbind.app
 2. Type ports to watch, e.g. `3000, 8080`, then press Enter
 3. Click **Kill** next to a busy port. Click again (**Force Kill**) if it won't quit
 4. Use the ✏️ button to edit labels, groups and auto-kill
-5. **Settings** at the bottom: refresh interval, notifications, launch at login
+5. **Settings** at the bottom: refresh interval, notifications, launch at login, language
 
 ## Icon
 

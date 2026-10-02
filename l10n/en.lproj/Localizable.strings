@@ -37,3 +37,6 @@
 "로그인 시 실행" = "Launch at login";
 "설정 실패: %@" = "Failed: %@";
 "버전" = "Version";
+"언어" = "Language";
+"시스템 언어" = "System";
+"다시 시작해서 적용" = "Relaunch to Apply";

@@ -436,10 +436,27 @@ let appVersion: String = {
     return "\(i["CFBundleShortVersionString"] as? String ?? "?") (\(i["CFBundleVersion"] as? String ?? "?"))"
 }()
 
+// 앱 전용 AppleLanguages ("" = 시스템 언어). 다시 시작해야 적용
+let languages = [("", ""), ("en", "English"), ("ko", "한국어"), ("ja", "日本語"), ("zh-Hans", "简体中文")]
+// 시스템 설정에서 앱별로 고른 "en-US" 같은 값도 목록 항목으로 맞춤
+let savedLanguage: String = {
+    let l = (UserDefaults.standard.persistentDomain(forName: Bundle.main.bundleIdentifier ?? "")?["AppleLanguages"] as? [String])?.first ?? ""
+    return languages.first { !$0.0.isEmpty && l.hasPrefix($0.0) }?.0 ?? ""
+}()
+
+func relaunch() {
+    let p = Process()
+    p.executableURL = URL(fileURLWithPath: "/bin/sh")
+    p.arguments = ["-c", "sleep 0.5; open \"$0\"", Bundle.main.bundlePath]
+    try? p.run()
+    NSApp.terminate(nil)
+}
+
 struct SettingsView: View {
     @Bindable var w: Watcher
     @State private var login = SMAppService.mainApp.status == .enabled
     @State private var loginError = ""
+    @State private var lang = savedLanguage
 
     var body: some View {
         Form {
@@ -452,6 +469,16 @@ struct SettingsView: View {
                 catch { loginError = String(localized: "설정 실패: \(error.localizedDescription)") }
             }))
             if !loginError.isEmpty { Text(loginError).font(.caption).foregroundStyle(.red) }
+            Picker("언어", selection: Binding(get: { lang }, set: { l in
+                lang = l
+                if l.isEmpty { UserDefaults.standard.removeObject(forKey: "AppleLanguages") }
+                else { UserDefaults.standard.set([l], forKey: "AppleLanguages") }
+            })) {
+                ForEach(languages, id: \.0) { code, name in
+                    (code.isEmpty ? Text("시스템 언어") : Text(verbatim: name)).tag(code)
+                }
+            }
+            if lang != savedLanguage { Button("다시 시작해서 적용") { relaunch() } }
             LabeledContent("버전", value: appVersion)
         }
         .formStyle(.grouped)
