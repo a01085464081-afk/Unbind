@@ -25,7 +25,19 @@
 - macOS 26 以降
 - Xcode 26 以降（ビルド用）
 
-## ビルドとインストール
+## インストール（Homebrew）
+
+```sh
+brew install --cask a01085464081-afk/tap/unbind
+```
+
+Unbind は Apple の公証を受けていないため、初回起動時に macOS にブロックされることがあります。以下のコマンドを一度実行するか、システム設定 → プライバシーとセキュリティ で **このまま開く** をクリックしてください。
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Unbind.app
+```
+
+## ソースからビルド
 
 ```sh
 git clone https://github.com/a01085464081-afk/Unbind.git

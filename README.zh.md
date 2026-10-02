@@ -25,7 +25,19 @@
 - macOS 26 或更高版本
 - Xcode 26 或更高版本（用于构建）
 
-## 构建与安装
+## 安装（Homebrew）
+
+```sh
+brew install --cask a01085464081-afk/tap/unbind
+```
+
+Unbind 未经 Apple 公证，首次启动时 macOS 可能会阻止运行。请运行一次以下命令，或在 系统设置 → 隐私与安全性 中点击 **仍要打开**。
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Unbind.app
+```
+
+## 从源码构建
 
 ```sh
 git clone https://github.com/a01085464081-afk/Unbind.git

@@ -25,7 +25,19 @@
 - macOS 26 or later
 - Xcode 26 or later (for building)
 
-## Build & Install
+## Install (Homebrew)
+
+```sh
+brew install --cask a01085464081-afk/tap/unbind
+```
+
+Unbind is not notarized, so macOS may block the first launch. Run this once, or allow it in System Settings → Privacy & Security → **Open Anyway**.
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Unbind.app
+```
+
+## Build from source
 
 ```sh
 git clone https://github.com/a01085464081-afk/Unbind.git
