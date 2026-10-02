@@ -202,13 +202,13 @@ func notify(_ body: String) {
         for port in cfg.ports {
             let now = r[port]?.first
             if cfg.notify, let was = lastBusy[port], was != (now != nil) {
-                notify(now.map { "\(title(port)) 사용 시작 · \($0.container ?? $0.name)" } ?? "\(title(port)) 비었어요")
+                notify(now.map { String(localized: "\(title(port)) 사용 시작 · \($0.container ?? $0.name)") } ?? String(localized: "\(title(port)) 비었어요"))
             }
             lastBusy[port] = now != nil
             if cfg.autoKill.contains(port) {
                 for p in r[port] ?? [] {
                     if !termed.contains(p.pid), p.container.map({ !stopping.contains($0) }) ?? true, cfg.notify {
-                        notify("\(title(port)) 자동 종료 · \(p.container ?? p.name)")
+                        notify(String(localized: "\(title(port)) 자동 종료 · \(p.container ?? p.name)"))
                     }
                     kill(p)
                 }
@@ -220,7 +220,7 @@ func notify(_ body: String) {
 
     func add(_ input: String) -> Bool {
         let new = input.split(whereSeparator: { ", ".contains($0) }).compactMap { Int($0) }
-        guard !new.isEmpty, new.allSatisfy({ (1...65535).contains($0) }) else { error = "1~65535 사이 포트를 입력하세요"; return false }
+        guard !new.isEmpty, new.allSatisfy({ (1...65535).contains($0) }) else { error = String(localized: "1~65535 사이 포트를 입력하세요"); return false }
         cfg.ports = Array(Set(cfg.ports + new)).sorted()
         error = ""
         refresh()
@@ -242,10 +242,10 @@ func notify(_ body: String) {
             DispatchQueue.global().async { _ = run(d, ["stop", c]); DispatchQueue.main.async { self.refresh() } }
             return
         }
-        guard !isDocker(p) else { error = "Docker 내부 프로세스는 종료할 수 없어요"; return }
+        guard !isDocker(p) else { error = String(localized: "Docker 내부 프로세스는 종료할 수 없어요"); return }
         let force = termed.contains(p.pid)
         if Darwin.kill(p.pid, force ? SIGKILL : SIGTERM) != 0 {
-            if errno == EPERM { sudoPid = p.pid; error = "권한 없음: \(p.name)" } else { error = String(cString: strerror(errno)) }
+            if errno == EPERM { sudoPid = p.pid; error = String(localized: "권한 없음: \(p.name)") } else { error = String(cString: strerror(errno)) }
             return
         }
         termed.insert(p.pid)
@@ -259,7 +259,7 @@ func notify(_ body: String) {
         let sig = termed.contains(pid) ? 9 : 15
         var err: NSDictionary?
         NSAppleScript(source: "do shell script \"kill -\(sig) \(pid)\" with administrator privileges")?.executeAndReturnError(&err)
-        if err != nil { error = "관리자 권한 종료가 취소됐거나 실패했어요"; return }
+        if err != nil { error = String(localized: "관리자 권한 종료가 취소됐거나 실패했어요"); return }
         termed.insert(pid)
         error = ""
         sudoPid = nil
@@ -275,7 +275,7 @@ let elapsedFmt: DateComponentsFormatter = {
     f.maximumUnitCount = 2
     f.allowedUnits = [.day, .hour, .minute, .second]
     var cal = Calendar.current
-    cal.locale = Locale(identifier: "ko_KR")
+    cal.locale = Locale(identifier: Bundle.main.preferredLocalizations.first ?? "en")
     f.calendar = cal
     return f
 }()
@@ -449,7 +449,7 @@ struct SettingsView: View {
             Toggle("포트 변화 알림", isOn: $w.cfg.notify)
             Toggle("로그인 시 실행", isOn: Binding(get: { login }, set: { on in
                 do { try on ? SMAppService.mainApp.register() : SMAppService.mainApp.unregister(); login = on; loginError = "" }
-                catch { loginError = "설정 실패: \(error.localizedDescription)" }
+                catch { loginError = String(localized: "설정 실패: \(error.localizedDescription)") }
             }))
             if !loginError.isEmpty { Text(loginError).font(.caption).foregroundStyle(.red) }
             LabeledContent("버전", value: appVersion)
