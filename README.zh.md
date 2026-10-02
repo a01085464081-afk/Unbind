@@ -27,7 +27,8 @@
 ## 安装（Homebrew）
 
 ```sh
-brew install --cask a01085464081-afk/tap/unbind
+brew tap a01085464081-afk/unbind https://github.com/a01085464081-afk/Unbind
+brew install --cask unbind
 ```
 
 Unbind 未经 Apple 公证，首次启动时 macOS 可能会阻止运行。请运行一次以下命令，或在 系统设置 → 隐私与安全性 中点击 **仍要打开**。
@@ -54,7 +55,7 @@ brew uninstall --cask unbind
 
 ```sh
 brew uninstall --zap --cask unbind
-brew untap a01085464081-afk/tap
+brew untap a01085464081-afk/unbind
 ```
 
 如果是从源码构建安装的：

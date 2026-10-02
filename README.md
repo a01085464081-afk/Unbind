@@ -27,7 +27,8 @@
 ## Install (Homebrew)
 
 ```sh
-brew install --cask a01085464081-afk/tap/unbind
+brew tap a01085464081-afk/unbind https://github.com/a01085464081-afk/Unbind
+brew install --cask unbind
 ```
 
 Unbind is not notarized, so macOS may block the first launch. Run this once, or allow it in System Settings → Privacy & Security → **Open Anyway**.
@@ -54,7 +55,7 @@ To also remove settings and the tap:
 
 ```sh
 brew uninstall --zap --cask unbind
-brew untap a01085464081-afk/tap
+brew untap a01085464081-afk/unbind
 ```
 
 If you built from source:
