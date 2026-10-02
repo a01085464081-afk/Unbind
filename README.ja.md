@@ -24,7 +24,7 @@
 ## 動作環境
 
 - macOS 26 以降
-- Xcode 26 以降（ビルド用）
+- ソースからビルドする場合のみ：Command Line Tools（`xcode-select --install`）。Xcode は任意で、あれば Liquid Glass アイコンが入ります
 
 ## インストール（Homebrew）
 

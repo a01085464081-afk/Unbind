@@ -24,7 +24,7 @@
 ## 系統需求
 
 - macOS 26 或以上版本
-- Xcode 26 或以上版本（建置用）
+- 僅從原始碼建置時需要：Command Line Tools（`xcode-select --install`）。Xcode 為選用，安裝後會使用 Liquid Glass 圖示
 
 ## 安裝（Homebrew）
 

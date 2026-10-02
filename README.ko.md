@@ -24,7 +24,7 @@
 ## 요구 사항
 
 - macOS 26 이상
-- Xcode 26 이상 (빌드용)
+- 소스에서 빌드할 때만: Command Line Tools (`xcode-select --install`). Xcode는 없어도 되고, 있으면 Liquid Glass 아이콘이 들어가요
 
 ## 설치 (Homebrew)
 
