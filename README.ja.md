@@ -28,7 +28,7 @@
 
 ```sh
 brew tap a01085464081-afk/unbind https://github.com/a01085464081-afk/Unbind
-brew install --cask unbind
+brew install --cask a01085464081-afk/unbind/unbind
 ```
 
 Unbind は Apple の公証を受けていないため、初回起動時に macOS にブロックされることがあります。以下のコマンドを一度実行するか、システム設定 → プライバシーとセキュリティ で **このまま開く** をクリックしてください。
@@ -40,7 +40,7 @@ xattr -dr com.apple.quarantine /Applications/Unbind.app
 アップデート：
 
 ```sh
-brew upgrade --cask unbind
+brew upgrade --cask a01085464081-afk/unbind/unbind
 ```
 
 ## アンインストール
@@ -48,13 +48,13 @@ brew upgrade --cask unbind
 メニューバーで **終了**をクリックしてから：
 
 ```sh
-brew uninstall --cask unbind
+brew uninstall --cask a01085464081-afk/unbind/unbind
 ```
 
 設定と tap も削除するには：
 
 ```sh
-brew uninstall --zap --cask unbind
+brew uninstall --zap --cask a01085464081-afk/unbind/unbind
 brew untap a01085464081-afk/unbind
 ```
 

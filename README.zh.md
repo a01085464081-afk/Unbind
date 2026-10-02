@@ -28,7 +28,7 @@
 
 ```sh
 brew tap a01085464081-afk/unbind https://github.com/a01085464081-afk/Unbind
-brew install --cask unbind
+brew install --cask a01085464081-afk/unbind/unbind
 ```
 
 Unbind 未经 Apple 公证，首次启动时 macOS 可能会阻止运行。请运行一次以下命令，或在 系统设置 → 隐私与安全性 中点击 **仍要打开**。
@@ -40,7 +40,7 @@ xattr -dr com.apple.quarantine /Applications/Unbind.app
 更新：
 
 ```sh
-brew upgrade --cask unbind
+brew upgrade --cask a01085464081-afk/unbind/unbind
 ```
 
 ## 卸载
@@ -48,13 +48,13 @@ brew upgrade --cask unbind
 先在菜单栏中点击 **退出**，然后：
 
 ```sh
-brew uninstall --cask unbind
+brew uninstall --cask a01085464081-afk/unbind/unbind
 ```
 
 如需同时删除设置和 tap：
 
 ```sh
-brew uninstall --zap --cask unbind
+brew uninstall --zap --cask a01085464081-afk/unbind/unbind
 brew untap a01085464081-afk/unbind
 ```
 

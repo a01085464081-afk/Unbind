@@ -28,7 +28,7 @@
 
 ```sh
 brew tap a01085464081-afk/unbind https://github.com/a01085464081-afk/Unbind
-brew install --cask unbind
+brew install --cask a01085464081-afk/unbind/unbind
 ```
 
 Unbind is not notarized, so macOS may block the first launch. Run this once, or allow it in System Settings → Privacy & Security → **Open Anyway**.
@@ -40,7 +40,7 @@ xattr -dr com.apple.quarantine /Applications/Unbind.app
 To update:
 
 ```sh
-brew upgrade --cask unbind
+brew upgrade --cask a01085464081-afk/unbind/unbind
 ```
 
 ## Uninstall
@@ -48,13 +48,13 @@ brew upgrade --cask unbind
 Quit Unbind from the menu bar (**Quit**), then:
 
 ```sh
-brew uninstall --cask unbind
+brew uninstall --cask a01085464081-afk/unbind/unbind
 ```
 
 To also remove settings and the tap:
 
 ```sh
-brew uninstall --zap --cask unbind
+brew uninstall --zap --cask a01085464081-afk/unbind/unbind
 brew untap a01085464081-afk/unbind
 ```
 
