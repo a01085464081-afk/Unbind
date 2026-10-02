@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256"><title>Unbind A</title>
+<path d="M64 136 V96 A64 64 0 0 1 192 96 V136 Z"/>
+<rect x="88" y="132" width="24" height="44" rx="4"/><rect x="144" y="132" width="24" height="44" rx="4"/>
+<rect x="48" y="200" width="160" height="24" rx="12"/>
+</svg>

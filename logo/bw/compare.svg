@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760"><rect width="1500" height="380" fill="#F5F5F7"/><rect y="380" width="1500" height="380" fill="#1C1C1E"/>
+<svg x="40" y="30" width="300" height="300" viewBox="0 0 1024 1024"><defs><linearGradient id="g00" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g00)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#FFFFFF"/></g></svg>
+<svg x="350" y="150" width="64" height="64" viewBox="0 0 1024 1024"><defs><linearGradient id="g00b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g00b)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#FFFFFF"/></g></svg>
+<svg x="424" y="182" width="32" height="32" viewBox="0 0 1024 1024"><defs><linearGradient id="g00c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g00c)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#FFFFFF"/></g></svg>
+<text x="190" y="360" text-anchor="middle" font-family="Apple SD Gothic Neo" font-size="26" font-weight="600" fill="#1C1C1E">A · 블랙</text>
+<svg x="40" y="410" width="300" height="300" viewBox="0 0 1024 1024"><defs><linearGradient id="g01" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g01)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#FFFFFF"/></g></svg>
+<svg x="350" y="530" width="64" height="64" viewBox="0 0 1024 1024"><defs><linearGradient id="g01b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g01b)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#FFFFFF"/></g></svg>
+<svg x="424" y="562" width="32" height="32" viewBox="0 0 1024 1024"><defs><linearGradient id="g01c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g01c)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#FFFFFF"/></g></svg>
+<text x="190" y="740" text-anchor="middle" font-family="Apple SD Gothic Neo" font-size="26" font-weight="600" fill="#F5F5F7">A · 블랙</text>
+<svg x="530" y="30" width="300" height="300" viewBox="0 0 1024 1024"><defs><linearGradient id="g10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g10)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#6E6E73"/></g></svg>
+<svg x="840" y="150" width="64" height="64" viewBox="0 0 1024 1024"><defs><linearGradient id="g10b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g10b)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#6E6E73"/></g></svg>
+<svg x="914" y="182" width="32" height="32" viewBox="0 0 1024 1024"><defs><linearGradient id="g10c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g10c)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#6E6E73"/></g></svg>
+<text x="680" y="360" text-anchor="middle" font-family="Apple SD Gothic Neo" font-size="26" font-weight="600" fill="#1C1C1E">B · 블랙 + 회색 커서</text>
+<svg x="530" y="410" width="300" height="300" viewBox="0 0 1024 1024"><defs><linearGradient id="g11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g11)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#6E6E73"/></g></svg>
+<svg x="840" y="530" width="64" height="64" viewBox="0 0 1024 1024"><defs><linearGradient id="g11b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g11b)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#6E6E73"/></g></svg>
+<svg x="914" y="562" width="32" height="32" viewBox="0 0 1024 1024"><defs><linearGradient id="g11c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g11c)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#FFFFFF" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#6E6E73"/></g></svg>
+<text x="680" y="740" text-anchor="middle" font-family="Apple SD Gothic Neo" font-size="26" font-weight="600" fill="#F5F5F7">B · 블랙 + 회색 커서</text>
+<svg x="1020" y="30" width="300" height="300" viewBox="0 0 1024 1024"><defs><linearGradient id="g20" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8ED"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g20)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#111111" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#111111"/></g></svg>
+<svg x="1330" y="150" width="64" height="64" viewBox="0 0 1024 1024"><defs><linearGradient id="g20b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8ED"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g20b)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#111111" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#111111"/></g></svg>
+<svg x="1404" y="182" width="32" height="32" viewBox="0 0 1024 1024"><defs><linearGradient id="g20c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8ED"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g20c)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#111111" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#111111"/></g></svg>
+<text x="1170" y="360" text-anchor="middle" font-family="Apple SD Gothic Neo" font-size="26" font-weight="600" fill="#1C1C1E">C · 화이트</text>
+<svg x="1020" y="410" width="300" height="300" viewBox="0 0 1024 1024"><defs><linearGradient id="g21" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8ED"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g21)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#111111" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#111111"/></g></svg>
+<svg x="1330" y="530" width="64" height="64" viewBox="0 0 1024 1024"><defs><linearGradient id="g21b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8ED"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g21b)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#111111" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#111111"/></g></svg>
+<svg x="1404" y="562" width="32" height="32" viewBox="0 0 1024 1024"><defs><linearGradient id="g21c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8E8ED"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#g21c)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><path fill="#111111" d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/><rect x="48" y="200" width="160" height="24" rx="12" fill="#111111"/></g></svg>
+<text x="1170" y="740" text-anchor="middle" font-family="Apple SD Gothic Neo" font-size="26" font-weight="600" fill="#F5F5F7">C · 화이트</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><title>Unbind app icon</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+<rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+<g transform="translate(512 520) scale(2.5) translate(-128 -128)"><g fill="#FFFFFF"><path d="M64 136 V96 A64 64 0 0 1 192 96 V136 H168 V172 A4 4 0 0 1 164 176 H148 A4 4 0 0 1 144 172 V136 H112 V172 A4 4 0 0 1 108 176 H92 A4 4 0 0 1 88 172 V136 Z"/></g><g fill="#FFFFFF"><rect x="48" y="200" width="160" height="24" rx="12"/></g></g>
+</svg>

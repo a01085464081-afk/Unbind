@@ -1,0 +1,54 @@
+<p align="center"><img src="docs/icon.png" width="128" alt="Unbind 图标"></p>
+<h1 align="center">Unbind</h1>
+<p align="center">监视端口并一键释放的 macOS 菜单栏应用</p>
+<p align="center"><a href="README.md">English</a> · <a href="README.ko.md">한국어</a> · <b>中文</b> · <a href="README.ja.md">日本語</a></p>
+
+---
+
+"端口 3000 已被占用"——Unbind 会显示是谁占用了端口，并让你直接在菜单栏中结束它。
+
+## 功能
+
+- **端口监视**：所有监视端口空闲时显示拔出的插头，有端口被占用时显示插入的插头和数量
+- **进程信息**：名称、PID、TCP/UDP、工作目录、运行时长（悬停可查看完整命令）
+- **结束进程**：第一次点击发送 SIGTERM，再次点击发送 SIGKILL。需要权限时可用管理员密码结束
+- **Docker**：Docker 占用的端口以容器名显示，并通过 `docker stop` 停止
+- **标签、分组、自动结束**：为端口命名、分组并一键全部结束、自动结束占用端口的进程
+- **通知**：监视端口被占用或释放时通知
+- **其他开放端口**：列出未监视的 TCP 端口，一键加入监视
+- 设置：刷新间隔（1/2/5/10 秒）、通知、登录时启动
+
+> 目前界面仅支持韩语。
+
+## 系统要求
+
+- macOS 26 或更高版本
+- Xcode 26 或更高版本（用于构建）
+
+## 构建与安装
+
+```sh
+git clone https://github.com/a01085464081-afk/Unbind.git
+cd Unbind
+./build.sh
+cp -R Unbind.app /Applications/
+open /Applications/Unbind.app
+```
+
+`build.sh` 会运行自检、编译图标和应用，并进行 ad-hoc 签名。
+
+## 使用方法
+
+1. 点击菜单栏中的插头图标
+2. 输入要监视的端口（例如 `3000, 8080`），按回车
+3. 点击被占用端口旁的 **종료（结束）**。如果没有退出，再点一次（**강제 종료**，强制结束）
+4. 用 ✏️ 按钮编辑标签、分组和自动结束
+5. 在底部 **설정（设置）** 中设置刷新间隔、通知、登录时启动
+
+## 图标
+
+从终端光标（`_`）上拔出的插头——表示"端口已空"。文件与使用规范见 [logo/README.md](logo/README.md)（韩语）。
+
+| 应用图标 | 菜单栏（空闲） | 菜单栏（占用） |
+|:-:|:-:|:-:|
+| <img src="docs/icon.png" width="64"> | <img src="logo/final/menubar-free@2x.png"> | <img src="logo/final/menubar-busy@2x.png"> |
