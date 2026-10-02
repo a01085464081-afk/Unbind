@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 cd "$(dirname "$0")"
-VERSION=1.1.0
+VERSION=1.2.0
 BUILD=$(date +%Y%m%d%H%M)
 # 파서 자체 점검
 swiftc -D CHECK -parse-as-library Unbind.swift -o /tmp/unbind-check && /tmp/unbind-check
